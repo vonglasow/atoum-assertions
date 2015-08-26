@@ -1,0 +1,16 @@
+{
+    "name": "inovia-team/atoum-assertions",
+    "description": "Add assertions for more complex type",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alexis von Glasow",
+            "email": "alexis.von-glasow@inovia-team.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "inovia\\": "source/"
+        }
+    }
+}
