@@ -4,23 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0ea93091489bed2b70088d596691748e",
+    "hash": "049a1c04909c0c62b00d656937e764a7",
     "packages": [
-
-    ],
-    "packages-dev": [
         {
             "name": "atoum/atoum",
-            "version": "dev-master",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/atoum/atoum.git",
-                "reference": "259202a7e917a201306d1029ccea6d24a6f1fb3a"
+                "reference": "84220013abd7917f04007d24c075eb2e7bd00b4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/atoum/atoum/zipball/259202a7e917a201306d1029ccea6d24a6f1fb3a",
-                "reference": "259202a7e917a201306d1029ccea6d24a6f1fb3a",
+                "url": "https://api.github.com/repos/atoum/atoum/zipball/84220013abd7917f04007d24c075eb2e7bd00b4d",
+                "reference": "84220013abd7917f04007d24c075eb2e7bd00b4d",
                 "shasum": ""
             },
             "require": {
@@ -41,6 +38,11 @@
                 "bin/atoum"
             ],
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
             "autoload": {
                 "classmap": [
                     "classes/"
@@ -81,21 +83,16 @@
                 "test",
                 "unit testing"
             ],
-            "time": "2014-07-30 11:55:47"
+            "time": "2015-07-31 14:17:00"
         }
     ],
-    "aliases": [
-
-    ],
+    "packages-dev": [],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "atoum/atoum": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
-    "platform": [
-
-    ],
-    "platform-dev": [
-
-    ]
+    "platform": {
+        "php": ">=5.3"
+    },
+    "platform-dev": []
 }

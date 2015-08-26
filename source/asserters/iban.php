@@ -4,7 +4,7 @@ namespace inovia\asserters;
 
 use mageekguy\atoum;
 
-class iban extends atoum\asserters\string
+class iban extends atoum\asserters\phpstring
 {
     public function isValid($failMessage = null)
     {
