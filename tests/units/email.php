@@ -9,5 +9,6 @@ class email extends \inovia\test
     public function testEmail()
     {
         $this->email('sdf@sdf.fr')->isValid();
+        $this->email('alexis@vonglasow.com')->isValid();
     }
 }

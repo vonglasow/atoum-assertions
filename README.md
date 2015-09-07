@@ -33,3 +33,12 @@ Assertions
 
 - iban:
     * isValid
+- email:
+    * isValid
+- cb:
+    * isVisa
+    * isMasterCard
+    * isAmericanExpress
+    * isDinersClub
+    * isDiscover
+    * isJcb
