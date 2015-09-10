@@ -42,3 +42,7 @@ Assertions
     * isDinersClub
     * isDiscover
     * isJcb
+- ip:
+    * isIpv4
+    * isIpv6
+
