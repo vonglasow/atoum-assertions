@@ -21,5 +21,7 @@ class test extends atoum\test
             $reflectionClassFactory
         );
         $this->getAsserterGenerator()->addNamespace(__NAMESPACE__ . '\asserters');
+        $this->getAsserterGenerator()->addNamespace(__NAMESPACE__ . '\asserters\bank');
+        $this->getAsserterGenerator()->addNamespace(__NAMESPACE__ . '\asserters\network');
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace inovia\asserters;
+namespace inovia\asserters\network;
 
 use mageekguy\atoum;
 
