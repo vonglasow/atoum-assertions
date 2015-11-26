@@ -1,6 +1,6 @@
 <?php
 
-namespace inovia\asserters;
+namespace testify\asserters;
 
 use mageekguy\atoum;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace inovia\tests\units\asserters;
+namespace testify\tests\units\asserters;
 
 use mageekguy\atoum;
 
-class email extends \inovia\test
+class email extends atoum\test
 {
     public function testEmail()
     {

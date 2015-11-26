@@ -1,6 +1,6 @@
 <?php
 
-namespace inovia\asserters\bank;
+namespace testify\asserters\bank;
 
 use mageekguy\atoum;
 

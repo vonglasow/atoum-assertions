@@ -1,4 +1,5 @@
 <?php
+
 use mageekguy\atoum;
 
 define('CODE_COVERAGE_ROOT', __DIR__ . DIRECTORY_SEPARATOR . 'tests/coverage');
@@ -20,3 +21,5 @@ $report->addField($coverageField);
 $script->noCodeCoverageForNamespaces('atoum');
 $runner->addTestsFromDirectory(__DIR__ . '/tests');
 $runner->setBootstrapFile(__DIR__ . '/.bootstrap.php');
+
+$runner->addExtension(new testify\extension($script));

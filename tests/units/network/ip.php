@@ -1,10 +1,10 @@
 <?php
 
-namespace inovia\tests\units\asserters\network;
+namespace testify\tests\units\asserters\network;
 
 use mageekguy\atoum;
 
-class ip extends \inovia\test
+class ip extends atoum\test
 {
     public function testipv4()
     {

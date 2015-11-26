@@ -1,4 +1,4 @@
-inovia-team/atoum-assertions
+vonglasow/atoum-assertions
 =======
 
 Provide another assertions to verify more complex elements.
@@ -6,18 +6,15 @@ Provide another assertions to verify more complex elements.
 How to use it
 =======
 
-Add inovia-team/atoum-assertions in your composer.json and extends your class
-tests from `\inovia\test` instead of `atoum\test` and that's all
-
 ```
     "require-dev": {
          "atoum/atoum": "~2.0",
-         "inovia-team/atoum-assertions": "~0.0"
+         "vonglasow/atoum-assertions": "~0.0"
      },
      "repositories": [
          {
            "type": "git",
-           "url": "git@gitlab.inovia.fr:inovia-team/atoum-assertions.git"
+           "url": "git@github.com:vonglasow/atoum-assertions.git"
          }
      ],
 ```

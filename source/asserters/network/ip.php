@@ -1,6 +1,6 @@
 <?php
 
-namespace inovia\asserters\network;
+namespace testify\asserters\network;
 
 use mageekguy\atoum;
 

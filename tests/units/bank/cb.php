@@ -1,10 +1,10 @@
 <?php
 
-namespace inovia\tests\units\asserters\bank;
+namespace testify\tests\units\asserters\bank;
 
 use mageekguy\atoum;
 
-class cb extends \inovia\test
+class cb extends atoum\test
 {
     public function testcb()
     {

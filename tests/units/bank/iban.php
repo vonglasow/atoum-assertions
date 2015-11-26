@@ -1,10 +1,10 @@
 <?php
 
-namespace inovia\tests\units\asserters\bank;
+namespace testify\tests\units\asserters\bank;
 
 use mageekguy\atoum;
 
-class iban extends \inovia\test
+class iban extends atoum\test
 {
     public function testIban()
     {

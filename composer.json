@@ -1,11 +1,11 @@
 {
-    "name": "inovia-team/atoum-assertions",
+    "name": "vonglasow/atoum-assertions",
     "description": "Add assertions for more complex type",
     "license": "MIT",
     "authors": [
         {
             "name": "alexis von Glasow",
-            "email": "alexis.von-glasow@inovia-team.com"
+            "email": "von-glasow@gmail.com"
         }
     ],
     "keywords" : [
@@ -15,7 +15,7 @@
     "repositories": [
         {
             "type": "git",
-            "url": "git@gitlab.inovia.fr:alexis.von-glasow/atoum-assertions.git"
+            "url": "git@github.com:vonglasow/atoum-assertions.git"
         }
     ],
     "require": {
@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "inovia\\": "source/"
+            "testify\\": "source/"
         }
     }
 }
