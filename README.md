@@ -1,4 +1,4 @@
-vonglasow/atoum-assertions
+atoum/domain-assertions
 =======
 
 Provide another assertions to verify more complex elements.
@@ -9,14 +9,8 @@ How to use it
 ```
     "require-dev": {
          "atoum/atoum": "~2.0",
-         "vonglasow/atoum-assertions": "~0.0"
-     },
-     "repositories": [
-         {
-           "type": "git",
-           "url": "git@github.com:vonglasow/atoum-assertions.git"
-         }
-     ],
+         "atoum/domain-assertions": "~0.0"
+     }
 ```
 
 How to contribute

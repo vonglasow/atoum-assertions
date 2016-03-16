@@ -1,23 +1,24 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "049a1c04909c0c62b00d656937e764a7",
+    "hash": "867d2596daea21c5d3a254dd85080273",
+    "content-hash": "a782025b52958c24174eefd5a47840f2",
     "packages": [
         {
             "name": "atoum/atoum",
-            "version": "2.2.0",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/atoum/atoum.git",
-                "reference": "84220013abd7917f04007d24c075eb2e7bd00b4d"
+                "reference": "80a985ae02bb0028c6e9c658b1d862d01ad8e522"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/atoum/atoum/zipball/84220013abd7917f04007d24c075eb2e7bd00b4d",
-                "reference": "84220013abd7917f04007d24c075eb2e7bd00b4d",
+                "url": "https://api.github.com/repos/atoum/atoum/zipball/80a985ae02bb0028c6e9c658b1d862d01ad8e522",
+                "reference": "80a985ae02bb0028c6e9c658b1d862d01ad8e522",
                 "shasum": ""
             },
             "require": {
@@ -32,6 +33,7 @@
                 "mageekguy/atoum": "*"
             },
             "suggest": {
+                "atoum/stubs": "Provides IDE support (like autocompletion) for atoum",
                 "ext-mbstring": "Provides support for UTF-8 strings"
             },
             "bin": [
@@ -50,7 +52,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -83,7 +85,7 @@
                 "test",
                 "unit testing"
             ],
-            "time": "2015-07-31 14:17:00"
+            "time": "2016-03-09 16:06:05"
         }
     ],
     "packages-dev": [],
@@ -91,6 +93,7 @@
     "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": {
         "php": ">=5.3"
     },

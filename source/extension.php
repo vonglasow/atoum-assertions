@@ -1,6 +1,6 @@
 <?php
 
-namespace testify;
+namespace domain;
 
 use mageekguy\atoum;
 use mageekguy\atoum\observable;
