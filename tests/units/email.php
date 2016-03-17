@@ -1,6 +1,6 @@
 <?php
 
-namespace domain\tests\units\asserters;
+namespace mageekguy\atoum\domainAssertions\tests\units\asserters;
 
 use mageekguy\atoum;
 

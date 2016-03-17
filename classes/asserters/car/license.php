@@ -1,6 +1,6 @@
 <?php
 
-namespace domain\asserters\car;
+namespace mageekguy\atoum\domainAssertions\asserters\car;
 
 use mageekguy\atoum;
 

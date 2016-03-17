@@ -1,6 +1,6 @@
 <?php
 
-namespace domain;
+namespace mageekguy\atoum\domainAssertions;
 
 use mageekguy\atoum;
 use mageekguy\atoum\observable;

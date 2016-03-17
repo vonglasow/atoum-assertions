@@ -1,6 +1,6 @@
 <?php
 
-namespace domain\tests\units\asserters\network;
+namespace mageekguy\atoum\domainAssertions\tests\units\asserters\network;
 
 use mageekguy\atoum;
 

@@ -22,4 +22,4 @@ $script->noCodeCoverageForNamespaces('atoum');
 $runner->addTestsFromDirectory(__DIR__ . '/tests');
 $runner->setBootstrapFile(__DIR__ . '/.bootstrap.php');
 
-$runner->addExtension(new domain\extension($script));
+$runner->addExtension(new mageekguy\atoum\domainAssertions\extension($script));
