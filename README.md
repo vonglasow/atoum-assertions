@@ -1,4 +1,4 @@
-atoum/domain-assertions
+atoum/domain-assertions [![Build Status](https://travis-ci.org/vonglasow/domain-assertions.svg?branch=master)](https://travis-ci.org/vonglasow/domain-assertions)
 =======
 
 Provide another assertions to verify more complex elements.
