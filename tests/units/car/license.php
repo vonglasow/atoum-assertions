@@ -1,8 +1,8 @@
 <?php
 
-namespace mageekguy\atoum\domainAssertions\tests\units\asserters\car;
+namespace atoum\domainAssertions\tests\units\asserters\car;
 
-use mageekguy\atoum;
+use atoum;
 
 class license extends atoum\test
 {

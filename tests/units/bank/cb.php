@@ -1,8 +1,8 @@
 <?php
 
-namespace mageekguy\atoum\domainAssertions\tests\units\asserters\bank;
+namespace atoum\domainAssertions\tests\units\asserters\bank;
 
-use mageekguy\atoum;
+use atoum;
 
 class cb extends atoum\test
 {

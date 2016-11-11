@@ -1,8 +1,8 @@
 <?php
 
-namespace mageekguy\atoum\domainAssertions\tests\units\asserters\network;
+namespace atoum\domainAssertions\tests\units\asserters\network;
 
-use mageekguy\atoum;
+use atoum;
 
 class ip extends atoum\test
 {

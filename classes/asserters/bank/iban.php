@@ -1,8 +1,8 @@
 <?php
 
-namespace mageekguy\atoum\domainAssertions\asserters\bank;
+namespace atoum\domainAssertions\asserters\bank;
 
-use mageekguy\atoum;
+use atoum;
 
 class iban extends atoum\asserters\phpstring
 {
