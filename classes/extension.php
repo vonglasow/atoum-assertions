@@ -1,10 +1,10 @@
 <?php
 
-namespace mageekguy\atoum\domainAssertions;
+namespace atoum\domainAssertions;
 
 use mageekguy\atoum;
-use mageekguy\atoum\observable;
-use mageekguy\atoum\runner;
+use atoum\observable;
+use atoum\runner;
 
 class extension implements atoum\extension
 {

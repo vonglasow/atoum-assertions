@@ -1,8 +1,8 @@
 <?php
 
-namespace mageekguy\atoum\domainAssertions\tests\units\asserters;
+namespace atoum\domainAssertions\tests\units\asserters;
 
-use mageekguy\atoum;
+use atoum;
 
 class email extends atoum\test
 {

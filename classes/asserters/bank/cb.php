@@ -1,8 +1,8 @@
 <?php
 
-namespace mageekguy\atoum\domainAssertions\asserters\bank;
+namespace atoum\domainAssertions\asserters\bank;
 
-use mageekguy\atoum;
+use atoum;
 
 class cb extends atoum\asserters\phpstring
 {

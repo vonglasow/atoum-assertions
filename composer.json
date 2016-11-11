@@ -14,11 +14,11 @@
     ],
     "require": {
         "php": ">=5.3",
-        "atoum/atoum": "~2.0"
+        "atoum/atoum": "~2.8"
     },
     "autoload": {
         "psr-4": {
-            "domain\\": "classes/"
+            "atoum\\domainAssertions\\": "classes/"
         }
     }
 }

@@ -1,8 +1,8 @@
 <?php
 
-namespace mageekguy\atoum\domainAssertions\asserters\network;
+namespace atoum\domainAssertions\asserters\network;
 
-use mageekguy\atoum;
+use atoum;
 
 class ip extends atoum\asserters\phpstring
 {
